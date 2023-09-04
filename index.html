@@ -4,6 +4,79 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="whole_container">
+      <div class="section1">
+        <div class="container">
+          <header class="header">
+            <div class="netflix-logo">
+              <img src="images/logo.png" alt="NetflixLogo" class="logo" />
+            </div>
+            <div class="header-features">
+              <div class="language">
+                <i class="fa-solid fa-globe"></i>
+                <select name="LangSelect" id="" class="selector">
+                  <option value="english">English</option>
+                  <option value="hindi">Hindi</option>
+                </select>
+                <div class="downArrow">
+                  <img src="images/down-icon.png" alt="" class="arrow" />
+                </div>
+              </div>
+              <div class="signIn">
+                <p>Sign In</p>
+              </div>
+            </div>
+          </header>
+          <!-- <div class="contentBox"> -->
+          <div class="main-content">
+            <h1 class="main-heading">
+              Enjoy big movies, hit series and more from ₹&nbsp;149.
+            </h1>
+            <p class="main-para">Join today. Cancel anytime.</p>
+            <div class="createAccount">
+              <form class="emailForm">
+                <h3 class="emailInfo">
+                  Ready to watch? Enter your email to create or restart your
+                  membership.
+                </h3>
+                <div class="emailBlock">
+                  <input
+                    type="email"
+                    placeholder="Email Address"
+                    class="emailInput"
+                  />
+                  <button class="getStarted">Get Started</button>
+                </div>
+
+                <!-- <div class="emailAddress">
+                    <input
+                      type="email"
+                      minlength="5"
+                      maxlength="50"
+                      class="Email"
+                      placeholder="Email address"
+                    />
+                    <div class="getStarted">
+                      <p>Get Started</p>
+                      <i class="fa-solid fa-greater-than"></i>
+                    </div>
+                  </div> -->
+              </form>
+            </div>
+          </div>
+          <!-- </div> -->
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
