@@ -6,9 +6,23 @@
 }
 
 .hero-section {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.8) 0,
+      rgba(0, 0, 0, 0) 60%,
+      rgba(0, 0, 0, 0.8) 85%
+    ),
     url(images/background.jpg);
+
+  /* background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.8)
+    ),
+    url(images/background.jpg); */
+
   background-size: cover;
+  position: relative;
   background-position: center;
   /* height: 700px; */
 }
@@ -70,6 +84,11 @@
   margin-left: 20px;
 }
 
+.signIn-btn:hover {
+  cursor: pointer;
+  background: rgb(153, 22, 29);
+}
+
 .signIn-btn a {
   font-size: 14px;
   font-weight: 600;
@@ -82,7 +101,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 100px 0;
+  padding: 150px 0;
   color: white;
 }
 
@@ -119,7 +138,7 @@
 .form-heading {
   display: flex;
   text-align: center;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 400;
 }
 
@@ -142,6 +161,7 @@
   width: 100%;
   border: 1px solid rgba(255, 255, 255, 0.459);
   border-radius: 5px;
+  color: #fff;
 }
 
 .red-btn {
@@ -153,6 +173,11 @@
   border: none;
   border-radius: 5px;
   padding: 0 20px;
+  cursor: pointer;
+}
+
+.red-btn:hover {
+  background: rgb(153, 22, 29);
 }
 
 .started-btn {
@@ -173,7 +198,7 @@
 
 @media screen and (max-width: 600px) {
   .main-content {
-    padding: 20px;
+    padding: 30px 20px;
   }
 
   .headerLogo {
@@ -199,15 +224,20 @@
   }
 
   .main-heading {
-    font-size: 32px;
+    font-size: 30px;
   }
 
   .join-info {
     font-size: 20px;
   }
+
+  .tv-heading {
+    font-size: 30px;
+    font-weight: 900;
+  }
 }
 
-.feature-1 {
+.features {
   background-color: black;
   color: #fff;
   border-top: 6px solid #303030;
@@ -302,6 +332,9 @@
   position: relative;
 }
 
+.accordion li label:hover {
+  background-color: rgb(65, 65, 65);
+}
 .accordion li label::after {
   content: "+";
   position: absolute;
@@ -361,6 +394,16 @@ input[type="radio"] {
   .faq select {
     display: block;
   }
+
+  .footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .signIn-btn {
+    margin-left: 10px;
+  }
 }
 
 .footer {
@@ -369,18 +412,21 @@ input[type="radio"] {
   border-top: 6px solid #303030;
   color: #ffffffd8;
 }
-/* 
-@media screen and (max-width: 1024px) {
-  .footer {
-    padding: 0 20px;
-  }
-} */
+
+.footer-lang .language-content select {
+  display: block;
+}
 
 .footer-content {
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 30px;
+  font-size: 16px;
+}
+
+.links {
+  font-size: 14px;
 }
 
 .footer-content a {
@@ -402,16 +448,18 @@ input[type="radio"] {
   max-width: 120px;
 }
 
+.copyright {
+  font-size: 14px;
+}
+
 @media screen and (max-width: 860px) {
   .footer ul {
-    gap: 100px;
+    gap: 50px;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 490px) {
   .footer ul {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
+    gap: 30px;
   }
 }
