@@ -35,6 +35,7 @@
 
 .headerLogo {
   max-width: 148px;
+  width: 100%;
 }
 
 .netflixLogo {
@@ -60,6 +61,13 @@
   background: transparent;
   color: #fff;
   border: none;
+  font-size: 14px;
+  line-height: 1.2;
+}
+.language-content option {
+  background: #fff;
+  color: #000;
+  border: none;
   font-size: 16px;
 }
 
@@ -69,24 +77,22 @@
 }
 
 .signIn-btn {
+  display: flex;
+  align-items: center;
   background: #e50914;
-  color: white;
+  color: #fff;
   border: none;
   padding: 5px 15px;
   border-radius: 5px;
   margin-left: 20px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
 }
 
 .signIn-btn:hover {
   cursor: pointer;
   background: rgb(153, 22, 29);
-}
-
-.signIn-btn a {
-  font-size: 14px;
-  font-weight: 600;
-  color: white;
-  text-decoration: none;
 }
 
 .main-content {
@@ -95,13 +101,14 @@
   align-items: center;
   justify-content: center;
   padding: 150px 0;
-  color: white;
+  color: #fff;
 }
 
 .main-heading {
   text-align: center;
   font-size: 43px;
   font-weight: 900;
+  line-height: 1.4;
 }
 
 .join-info {
