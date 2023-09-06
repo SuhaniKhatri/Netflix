@@ -17,7 +17,6 @@
   background-size: cover;
   position: relative;
   background-position: center;
-  /* height: 700px; */
 }
 
 .container {
@@ -69,6 +68,7 @@
   color: #000;
   border: none;
   font-size: 16px;
+  line-height: 1.2;
 }
 
 .down-icon {
@@ -201,6 +201,7 @@
 
   .headerLogo {
     max-width: 88px;
+    width: 100%;
   }
 
   select {
@@ -235,7 +236,7 @@
   }
 }
 
-.feature-1 {
+.Features {
   background-color: black;
   color: #fff;
   border-top: 6px solid #303030;
@@ -257,9 +258,10 @@
 
 .display-block {
   max-width: 496px;
+  width: 100%;
 }
 
-.feac1-img {
+.feac-img {
   width: 100%;
 }
 
@@ -315,7 +317,6 @@
 
 .accordion {
   margin: auto;
-  /* max-width: 750px; */
   width: 100%;
   padding: 0 20px;
 }
@@ -460,6 +461,7 @@ input[type="radio"] {
 
 .footer-lang {
   max-width: 120px;
+  width: 100%;
 }
 
 .copyright {
