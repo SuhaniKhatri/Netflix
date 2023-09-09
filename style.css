@@ -10,16 +10,39 @@
   margin: 0 auto;
 }
 
+/* .wrapper {
+  position: absolute;
+} */
+
+.header {
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  border-bottom: 1px solid #8c8c8c33;
+  max-height: 53px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.innerHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .searchWrapper {
   display: flex;
-  width: 100%;
+  /* width: 100%; */
 }
 
 .logo {
   display: flex;
+  align-items: center;
   max-width: 41px;
   width: 100%;
-  margin-right: 5px;
+  /* margin-right: 5px; */
 }
 
 .linkedinLogo {
@@ -30,6 +53,7 @@
   max-width: 412px;
   width: 100%;
   display: flex;
+  margin: 5px;
 }
 
 .searchBar {
@@ -41,6 +65,7 @@
   background: #edf3f8;
   border-radius: 5px;
   padding: 0 10px;
+  /* margin: 5px; */
   box-sizing: border-box;
 }
 
@@ -51,5 +76,178 @@
   line-height: 1.75;
   font-weight: 400;
   font-size: 14px;
-  height: 34px;
+  /* height: 34px; */
 }
+
+.search-btn {
+  display: none;
+}
+
+.navbar {
+  display: flex;
+  max-width: 674px;
+  width: 100%;
+}
+
+.navlists {
+  display: flex;
+  list-style: none;
+  width: 100%;
+}
+
+.navlists li a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.navlists li a:hover {
+  color: #000000e6;
+}
+
+.Links {
+  max-width: 80px;
+  width: 100%;
+  display: flex;
+}
+
+.Links a {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 20px;
+}
+
+.Links span {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.profile-img {
+  max-width: 22px;
+  width: 100%;
+}
+
+.profile-pic {
+  width: 100%;
+  border-radius: 100%;
+}
+
+.Business {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 0 0 10px;
+  box-sizing: unset;
+  border-left: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.premium {
+  display: flex;
+  align-items: center;
+}
+
+.premium-block {
+  display: flex;
+  align-items: center;
+  max-width: 100px;
+  width: 100%;
+  text-decoration: underline;
+  color: #3e3c39;
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+premium-link {
+  color: #915907;
+}
+
+@media screen and (max-width: 1024px) {
+  .SearchBox {
+    display: none;
+  }
+  .searchBar {
+    background-color: white;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .search-btn {
+    display: block;
+    background-color: transparent;
+    border: none;
+    font-size: 12px;
+    color: #00000099;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .Links {
+    max-width: 70px;
+    width: 100%;
+  }
+  .Links span {
+    display: none;
+  }
+
+  .search-btn {
+    display: none;
+  }
+
+  .searchWrapper {
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .Links {
+    max-width: 60px;
+    width: 100%;
+  }
+
+  .header {
+    max-height: 60px;
+    height: 100%;
+  }
+}
+
+/* @media screen and (max-width: 889px) {
+  .logo {
+    max-width: 34px;
+    width: 100%;
+  }
+
+  .SearchBox {
+    display: none;
+  }
+  .searchBar {
+    background-color: white;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 747px) {
+  .Links {
+    max-width: 70px;
+    width: 100%;
+  }
+  .Links span {
+    display: none;
+  }
+} */
