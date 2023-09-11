@@ -4,6 +4,458 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="wrapper">
+      <header>
+        <div class="container">
+          <div class="innerHeader">
+            <a href="https://www.linkedin.com/feed/" class="logo-link">
+              <div class="logo">
+                <img src="images/LinkedIn_logo.png" alt="" class="logo-img" />
+              </div>
+            </a>
+            <div class="searchContainer">
+              <div class="searchBar">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" class="searchText" placeholder="Search" />
+                <span class="Search-btn">Search</span>
+              </div>
+            </div>
+            <nav class="navbar">
+              <ul class="navlists">
+                <li class="listItem">
+                  <a href="#home" class="">
+                    <i class="fa-solid fa-house-chimney"></i>
+                    <span class="list-Content">Home</span>
+                  </a>
+                </li>
+                <li class="listItem">
+                  <a href="#home" class="">
+                    <i class="fa-solid fa-user-group"></i>
+                    <span class="list-Content">My Network</span>
+                  </a>
+                </li>
+                <li class="listItem">
+                  <a href="#home" class="">
+                    <i class="fa-solid fa-briefcase"></i>
+                    <span class="list-Content">Jobs</span>
+                  </a>
+                </li>
+                <li class="listItem Messaging">
+                  <a href="#home" class="">
+                    <i class="fa-solid fa-comment-dots"></i>
+                    <span class="list-Content">Messaging</span>
+                  </a>
+                </li>
+                <li class="listItem Notifications">
+                  <a href="#home" class="">
+                    <i class="fa-solid fa-bell"></i>
+                    <span class="list-Content">Notifications</span>
+                  </a>
+                </li>
+                <li class="listItem profile">
+                  <a href="#home" class="">
+                    <div class="profile-icon">
+                      <img
+                        src="images/LinkedIn_logo.png"
+                        alt=""
+                        class="my-profile"
+                      />
+                    </div>
+                    <span class="list-Content"
+                      >Me <i class="fa-solid fa-sort-down"></i
+                    ></span>
+                  </a>
+                </li>
+                <li class="listItem border">
+                  <a href="#home" class="">
+                    <i class="fa-solid fa-grip"></i>
+                    <span class="list-Content"
+                      >For Business <i class="fa-solid fa-sort-down"></i
+                    ></span>
+                  </a>
+                </li>
+                <li class="premium-block">
+                  <a href="#home" class="">
+                    <div class="premium">
+                      <span class="premium-content">Try Premium for free</span>
+                    </div>
+                  </a>
+                </li>
+                <li class="listItem menu">
+                  <a href="#home" class="">
+                    <i class="fa-solid fa-ellipsis"></i>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <main>
+        <div class="container">
+          <div class="main-wrapper">
+            <div class="sidebar">
+              <div class="profile-details">
+                <div class="identity">
+                  <div class="background-cover">
+                    <img
+                      src="images/background-cover.jpg"
+                      alt=""
+                      class="background-cover-img"
+                    />
+                  </div>
+                  <a href="" class="display-my-profile">
+                    <div class="display-profile-picture">
+                      <div class="profile-pic">
+                        <img
+                          src="images/profile-img.jpg"
+                          alt=""
+                          class="profile-image"
+                        />
+                      </div>
+                    </div>
+                    <div class="person-name">Suhani Khatri</div>
+                  </a>
+                  <p class="profile-designation">Software Engineer</p>
+                </div>
+                <div class="profile-viewers">
+                  <div class="viewers-details">
+                    <ul class="entity-list-row">
+                      <li class="entity-list-item">
+                        <a href="" class="profile-viewers-links">
+                          <div class="profile-post-info">
+                            <span class="viewers-qa"
+                              >Who's viewed your profile</span
+                            >
+                            <span class="count"><strong>136</strong></span>
+                          </div>
+                        </a>
+                      </li>
+                      <li class="entity-list-item">
+                        <a href="" class="profile-viewers-links">
+                          <div class="profile-post-info">
+                            <span class="viewers-qa"
+                              >Impressions of your post</span
+                            >
+                            <span class="count"><strong>2,353</strong></span>
+                          </div>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <a href="" class="premium-link">
+                  <h3 class="premium-link-heading">
+                    Access exclusive tools & insights
+                  </h3>
+                  <span class="message-link">
+                    <div class="message-icon">
+                      <img
+                        src="images/message-icon.png"
+                        alt=" "
+                        class="yellow-box"
+                      />
+                    </div>
+                    <span class="network-link"
+                      > Try Premium for Free</span
+                    >
+                  </span>
+                </a>
+                <a href="" class="saved-content">
+                  <span class="bookmark-list">
+                    <i class="fa-solid fa-bookmark"></i>
+                    <span>My Items</span>
+                  </span>
+                </a>
+              </div>
+              <div class="sticky-information">
+                <div class="to-do-list">
+                  <a href="" class="sticky-links">
+                    <ul class="to-do-list-content">
+                      <li class="list-type">
+                        <span>Groups</span>
+                      </li>
+                      <li class="list-type">
+                        <div class="Event-panel">
+                          <span>Events</span>
+                          <div class="hover-around">
+                            <i class="fa-solid fa-plus"></i>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="list-type">
+                        <span>Followed Hashtags</span>
+                      </li>
+                    </ul>
+                  </a>
+                </div>
+                <div class="more-information">
+                  <a href="" class="discover-more">
+                    <span>Discover More</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="main-container">
+              <div class="sharing-post-container">
+                <div class="search-post">
+                  <a href="">
+                    <div class="avatar">
+                      <img
+                        src="images/profile-img.jpg"
+                        alt=""
+                        class="profile-image"
+                      />
+                    </div>
+                  </a>
+                  <div class="share-btn">
+                    <div class="btn-placeholder">Start a post</div>
+                  </div>
+                </div>
+                <div class="describe-post">
+                  <div class="media-container">
+                    <div class="media-hover">
+                      <div class="post-media">
+                        <div class="image-icon">
+                          <i class="fa-regular fa-image"></i>
+                        </div>
+                        <span class="media">Media</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="media-container">
+                    <div class="media-hover">
+                      <div class="post-media">
+                        <div class="image-icon">
+                          <i class="fa-solid fa-calendar-days"></i>
+                        </div>
+                        <span class="media">Event</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="media-container">
+                    <div class="media-hover">
+                      <div class="post-media">
+                        <div class="image-icon">
+                          <i class="fa-regular fa-newspaper"></i>
+                        </div>
+                        <span class="media">Write article</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="sort-by-container">
+                <div class="horizontal-rule">
+                  <hr class="horizontal-divider"></hr>
+                </div>
+                <div class="sort-by">
+                  <span>Sort by : </span>
+                  <div class="dropdown">
+                    <button class="dropbtn">
+                      Top <i class="fa-solid fa-sort-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                      <a href="#">Top</a>
+                      <a href="#">Recent</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="post-container">
+                <div class="post-header">
+                  <div class="profile-component">
+                    <div class="round-profile">
+                      <img src="images/profile-img.jpg" alt="" class="p-img">
+                    </div>
+                    <div class="person-likes-info">
+                      <span class="liked-name">Fayzan malik</span>&nbsp;
+                      <span class="likes-this">likes this</span>
+                    </div>
+                  </div>
+                  <div class="more-icons">
+                    <!-- <div class="three-dot-hover"> -->
+                      <span class="three-dots">
+                        <i class="fa-solid fa-ellipsis"></i>
+                      </span>
+                    <!-- </div> -->
+                    <!-- <div class="backgroud-hover"> -->
+                      <span class="cross">
+                        <i class="fa-solid fa-xmark"></i>
+                      </span>
+                    <!-- </div> -->
+                  </div>
+                </div>
+                <div class="update-component">
+                  <div class="updated-info">
+                    <a class="profile-container">
+                      <img src="images/profile-img.jpg" alt="" class="profile-image">
+                    </a>
+                    <div class="person-description">
+                        <a href="" class="person-wrapper-links">
+                          <ul class="person-info">
+                            <li class="name-listing">
+                              <span class="name">Swaroop Nadella</span>
+                              <span class="second"> • 2nd</span>
+                            </li>
+                            <li class="designation">
+                              <span>
+                                Test Automation Engineer | Helping Software Testers grow in their career | youtube/@swaroopnadella
+                              </span>
+                            </li>
+                            <li class="globe-time">
+                              <span>2h •   <i class="fa-solid fa-earth-americas"></i></span>
+                            </li>
+                          </ul>
+                        </a>
+                    </div>
+                  </div>
+                  <div class="follow-btn">
+                    <i class="fa-solid fa-plus"></i>
+                    <span>Follow</span>
+                  </div>
+                </div>
+                <div class="description-container">
+                  <span class="description">🎉 Celebrating 15 Years of Trust, Partnership, Outcome Driven Delivery 🎉
+                    <br>
+                    <br>
+                    7th Sep marked a significant milestone in our journey, as we celebrated 15 years of togetherness <span class="see-more">...see more</span>
+                  </span>
+                </div>
+                <div class="post-box">
+                  <img src="images/post.jpg" alt="" class="post-image">
+                </div>
+                <div class="reaction-container">
+                  <div class="reaction-count">
+                    <span class="reaction-icon">
+                      <div class="like-btn">
+                        <img src="images/like.svg" alt="" class="like-reaction">
+                      </div>
+                      <div class="hand-clap">
+                        <img src="images/hand-clap.svg" alt="" class="hand-clap-reaction">
+                      </div>
+                    </span>
+                    <span class="reacting-count">Viral Shah and 82 others</span>
+                  </div>
+                  <div class="comment-count">
+                    <span>31 comments</span>
+                  </div>
+                </div>
+                <div class="social-pluggins">
+                  <div class="pluggins-container">
+                    <div class="button">
+                      <i class="fa-regular fa-thumbs-up"></i>
+                      <span>Like</span>
+                    </div>
+                    <div class="button">
+                      <i class="fa-regular fa-comment"></i>
+                      <span>Comment</span>
+                    </div>
+                    <div class="button">
+                      <i class="fa-solid fa-repeat"></i>
+                      <span>Repost</span>
+                    </div>
+                    <div class="button">
+                      <i class="fa-solid fa-paper-plane"></i>
+                      <span>Send</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="aside">
+              <div class="news-container">
+                <div class="news-wrapper">
+                  <div class="news-header">
+                    <span class="news-heading">LinkedIn News</span>
+                    <span><i class="fa-solid fa-info"></i></span>
+                  </div>
+                  <ul class="news-lists">
+                   <div class="news-list">
+                    <li class="news-head-line">Morocco earthquake: latest updates</li>
+                    <span class="news-time">7h ago</span>
+                   </div>
+                   <div class="news-list">
+                    <li class="news-head-line">Indian low on health cover</li>
+                    <span class="news-time">7h ago</span>
+                   </div>
+                   <div class="news-list">
+                    <li class="news-head-line">Indian low on health cover</li>
+                    <span class="news-time">7h ago</span>
+                   </div>
+                   <div class="news-list">
+                    <li class="news-head-line">Indian low on health cover</li>
+                    <span class="news-time">7h ago</span>
+                   </div>
+                   <div class="news-list">
+                    <li class="news-head-line">Indian low on health cover</li>
+                    <span class="news-time">7h ago</span>
+                   </div>
+                  </ul>
+                  <div class="more-news">
+                    <span class="more">Show more <i class="fa-solid fa-chevron-down"></i></span>
+                  </div>
+                </div>
+              </div>
+              <div class="side-advertise">
+                <div class="advertisement">
+                  <div class="ad-icon">
+                    <span class="adv">Ad</span>
+                    <i class="fa-solid fa-ellipsis"></i>
+                  </div>
+                  <div class="tagline">
+                    <span>Suhani, Want to get trending cybersecurity updates?</span>
+                  </div>
+                  <div class="image-publicity">
+                    <div class="person-image">
+                      <img src="images/profile-img.jpg" alt="" class="profile">
+                    </div>
+                    <div class="product-image">
+                      <img src="images/LinkedIn_logo.png" alt="" class="ad-img">
+                    </div>
+                  </div>
+                  <div class="product-desc">
+                    <span class="product-info">Follow <strong>SafeAeon Inc.</strong> Today</span>
+                  </div>
+                  <div class="follow-button">
+                    <span class="follow">Follow</span>
+                  </div>
+                </div>
+              </div>
+              <div class="footer-links">
+                <div class="footer-container">
+                    <ul class="footer-lists">
+                      <li class="compact"><a href="">About</a></li>
+                      <li class="compact"><a href="">Assesibility</a></li>
+                      <li class="compact"><a href="">Help Center</a></li>
+                      <li class="compact"><a href="">Privacy & Terms <i class="fa-solid fa-sort-down"></i></a></li>
+                      <li class="compact"><a href="">Ad Choices</a></li>
+                      <li class="compact"><a href="">Advertising</a></li>
+                      <li class="compact"><a href="">Business Services <i class="fa-solid fa-sort-down"></i></a></li>
+                      <li class="compact"><a href="">Get the LinkedIn app</a></li>
+                      <li class="compact"><a href="">More</a></li>
+                    </ul>
+                    <div class="copyright">
+                      <span><img src="images/linkedin-img.svg" alt=""></span>&nbsp;
+                      <span>LinkedIn Corporation © 2023</span>
+
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
 </html>
